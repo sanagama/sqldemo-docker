@@ -2,7 +2,7 @@
 
 #
 # Pull and run SQL Server 2017 in Docker
-# The directory ~/mssql-restapi/backups is mounted as /backups in the Docker container
+# The directory ./backups is mounted as /backups in the Docker container
 #
 set -x
 
