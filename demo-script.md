@@ -41,8 +41,6 @@ Let's start
 
 #### 1. Run SQL in Docker
 
-Go to <https://hub.docker.com/r/microsoft/mssql-server-linux/> and talk to the image in Docker Hub. Point out we have 2M+ pulls now.
-
 Launch a ```Terminal``` window and type the following:
 ```
 cd ~/sqldemo-docker
@@ -96,14 +94,13 @@ cat ./3-restore-db.sh
     1. you don't need the full database; you only the data in the ```Customer``` table to write your app.
 
 (**Talking Points**)
-- How can we make this happen?
-- Well, first let's restore ```Adventureworks.BAK``` to pre-production.
+How can we make this happen?
+Well, first let's restore ```Adventureworks.BAK``` to pre-production.
 
-- Let's fire up Azure Data Studio and connect to SQL in Docker
-
-Launch Azure Data Studio
-Connect to ```localhost```
-Open file ```~/sqldemo-docker/backups/create-db-preprod.sql```
+Let's fire up Azure Data Studio and connect to SQL in Docker:
+- Launch Azure Data Studio
+- Connect to ```localhost```
+- Open file ```~/sqldemo-docker/backups/create-db-preprod.sql```
 
 Talk to each statement as you execute it.
 
@@ -157,9 +154,9 @@ cat ./6-run-script-dev-db.sh
 - Cool, all done
 - Let's take a look at the dev image
 
-Switch to Azure Data Studio.
-Connect to ```localhost,1432```
-Open a new query window and type ```SELECT * FROM [SalesLT].[Customer]```
+Switch back to Azure Data Studio.
+- Connect to ```localhost,1432```
+- Open a new query window and type ```SELECT * FROM [SalesLT].[Customer]```
 
 (**Talking Points**)
 - Our dev environment is ready!

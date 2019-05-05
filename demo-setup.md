@@ -32,7 +32,7 @@ Perform these steps ***once*** on your computer:
 1. Browse to <https://github.com/sanagama/sqldemo-docker>
 1. Click ```Clone or Download``` then click ```Download ZIP```
 1. Save the ZIP file to your ```HOME``` directory
-1. Extract the zip file to ```~/sql2017-docker```
+1. Extract the zip file to ```~/sqldemo-docker```
 
 ### Setup Docker
 
