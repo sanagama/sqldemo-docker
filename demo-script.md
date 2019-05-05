@@ -7,7 +7,6 @@ This page has the ***demo scripts*** and ***talking points*** for the ***SQL Ser
 Jump to:
 - [Main README.md](https://github.com/sanagama/sqldemo-docker)
 - [Demo Setup](https://github.com/sanagama/sqldemo-docker/blob/master/demo-setup.md)
-- [Demo Script](https://github.com/sanagama/sqldemo-docker/blob/master/demo-script.md)
 
 
 ## Demo Script

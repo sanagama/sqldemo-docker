@@ -6,7 +6,6 @@ This page has the ***demo setup instructions*** for the ***SQL Server in Docker*
 
 Jump to:
 - [Main README.md](https://github.com/sanagama/sqldemo-docker)
-- [Demo Setup](https://github.com/sanagama/sqldemo-docker/blob/master/demo-setup.md)
 - [Demo Script](https://github.com/sanagama/sqldemo-docker/blob/master/demo-script.md)
 
 
