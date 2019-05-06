@@ -5,8 +5,7 @@
 This page has the ***demo scripts*** and ***talking points*** for the ***SQL Server in Docker*** demos presented to the STRAPS team in Salesforce Marketing Cloud, May 2019.
 
 Jump to:
-- [Main README.md](https://github.com/sanagama/sqldemo-docker)
-- [Demo Setup](https://github.com/sanagama/sqldemo-docker/blob/master/demo-setup.md)
+- [README.md](https://github.com/sanagama/sqldemo-docker)
 
 
 ## Demo Script
@@ -19,7 +18,7 @@ Jump to:
 1. [Create dev environment](#4-create-dev-environment)
 1. [Share container](#5-share-container)
 
-#### SQL in Docker Intro
+### SQL in Docker Intro
 
 (**Talking Points**)
 - Let me talk a bit about running SQL in Docker.
@@ -39,7 +38,7 @@ Running SQL Server in Docker gives you 3 major benefits:
 
 Let's start
 
-#### 1. Run SQL in Docker
+### 1. Run SQL in Docker
 
 Launch a ```Terminal``` window and type the following:
 ```
@@ -67,7 +66,7 @@ cat ./2-run-sqlcmd.sh
 (**Talking Points**)
 - That was a basic demo of SQL Server in Docker
 
-#### 2. Restore a database backup
+### 2. Restore a database backup
 
 (**Talking Points**)
 - Let's try restoring a backup of the ```Wide World Importers``` database to SQL running in Docker
@@ -82,7 +81,7 @@ cat ./3-restore-db.sh
 ./3-restore-db.sh
 ```
 
-#### 3. Create pre-production environment
+### 3. Create pre-production environment
 
 (**Talking Points**)
 - Let's do something more interesting
@@ -109,7 +108,7 @@ Talk to each statement as you execute it.
 - Next problem: this is the full database but you only needs the ```Customer``` table.
 - Let's see how we can address that
 
-#### 4. Create dev environment
+### 4. Create dev environment
 
 (**Talking Points**)
 - My ```sqldocker``` Docker image is still running
@@ -162,7 +161,7 @@ Switch back to Azure Data Studio.
 - Our dev environment is ready!
 - Now, how can we share these environments with the rest of the team?
 
-#### 5. Share container
+### 5. Share container
 
 (**Talking Points**)
 - We can easily push these images to Docker hub for others to use

@@ -20,3 +20,4 @@ GO
 -- Dump database names
 SELECT NAME FROM SYS.DATABASES
 GO
+

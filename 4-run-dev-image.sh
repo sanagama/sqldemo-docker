@@ -14,3 +14,4 @@ docker run --name 'sqldocker-dev' --cap-add SYS_PTRACE \
             -d mcr.microsoft.com/mssql/server:2017-latest
 
 docker ps
+
