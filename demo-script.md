@@ -32,8 +32,8 @@ Running SQL Server in Docker gives you 4 major benefits:
 1. Greatly reduces variability and increases the speed of every iteration in the CI/CD pipeline
 1. Enforces a consistent dev/test environment for your team, since they can share the same state of an application in their container
 1. Helps you automate large-scale testing of containerized apps + SQL Server with high-intensity container deployments with managed container services.
-- e.g. Kubernetes, Docker Swarm, or other orchestration systems.
-- Spin up on demand, execute tests, spin down when finished.
+    - e.g. Kubernetes, Docker Swarm, or other orchestration systems.
+    - Spin up on demand, execute tests, spin down when finished.
 
 Let's start!
 
