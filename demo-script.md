@@ -27,16 +27,15 @@ Jump to:
 - Developers working with Continuous Integration/Continuous Deployment (CI/CD) pipelines can now include SQL Server containers as a component of their apps for an integrated build, test, and deploy experience.
 - You can use this approach for local development and CI/CD automation (e.g. [Travis CI](https://travis-ci.org)) to run Database integratiin tests and Database unit tests on the fly.
 
-Running SQL Server in Docker gives you 3 major benefits:
+Running SQL Server in Docker gives you 4 major benefits:
 1. Dramatically simplifies development, testing, and deployment of applications (you can package app + dependencies, including SQL Server, into a portable environment)
 1. Greatly reduces variability and increases the speed of every iteration in the CI/CD pipeline
 1. Enforces a consistent dev/test environment for your team, since they can share the same state of an application in their container
-
-- In addition, you can also automate large-scale testing of containerized apps + SQL Server with high-intensity container deployments with managed container services.
+1. Helps you automate large-scale testing of containerized apps + SQL Server with high-intensity container deployments with managed container services.
 - e.g. Kubernetes, Docker Swarm, or other orchestration systems.
 - Spin up on demand, execute tests, spin down when finished.
 
-Let's start
+Let's start!
 
 ### 1. Run SQL in Docker
 
