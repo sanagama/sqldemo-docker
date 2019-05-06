@@ -21,6 +21,7 @@ Jump to:
 ### SQL in Docker Intro
 
 (**Talking Points**)
+
 Why would you want to run SQL in Docker?
 - Ultimately, this is about empowering you to deliver continuous value to your customers in an agile manner
 - Developers working with Continuous Integration/Continuous Deployment (CI/CD) pipelines can now include SQL Server containers as a component of their apps for an integrated build, test, and deploy experience.
