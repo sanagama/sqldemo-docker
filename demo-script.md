@@ -25,7 +25,7 @@ Jump to:
 Why would you want to run SQL in Docker?
 - Ultimately, this is about empowering you to deliver continuous value to your customers in an agile manner
 - Developers working with Continuous Integration/Continuous Deployment (CI/CD) pipelines can now include SQL Server containers as a component of their apps for an integrated build, test, and deploy experience.
-- You can use this approach for local development and CI/CD automation (e.g. [Travis CI](https://travis-ci.org)) to run Database integratiin tests and Database unit tests on the fly.
+- You can use this approach for local development and CI/CD automation (e.g. [Travis CI](https://travis-ci.org)) to run Database integration tests and Database unit tests on the fly.
 
 Running SQL Server in Docker gives you 4 major benefits:
 1. Dramatically simplifies development, testing, and deployment of applications (you can package app + dependencies, including SQL Server, into a portable environment)
